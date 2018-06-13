@@ -1,0 +1,40 @@
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+}
+
+li {
+    float: right ;
+    text-align:center;
+}
+
+li a {
+    display: block;
+    color:#777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color:white;
+}
+
+li a:hover:not(.active) {
+    background-color:white;
+}
+
+.rafael{background-color:#4aaaa5;
+background-size: 20px;
+float:left;
+text-align:center;
+display: block;
+padding: 10px 10px;
+text-decoration: none;
+font-size: 50px;
+color:white;}
+
+
+.active {
+    background-color: #4CAF50;
+}
