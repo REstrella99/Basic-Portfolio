@@ -8,6 +8,13 @@ header{
     width: 100%;
 }
 
+
+.port{
+    color:white;
+}
+
+
+
 nav{
     float: right;
     padding: 25px 25px 20px 25px;
