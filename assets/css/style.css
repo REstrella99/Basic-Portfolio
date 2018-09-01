@@ -28,7 +28,15 @@ nav{
     margin: auto;
 }
 
+a:link{
+    color: #777777;
+    text-decoration: none;
+}
 
+a:visited{
+    color: #777777;
+    text-decoration: none;
+}
 
 a:hover{
     background-color:#60FCD6;
