@@ -54,7 +54,7 @@ hr{
     display: block;
     height: 1px;
     border: 0;
-    border-top: 3px solid #ddd;
+    border-top: 3px solid steelblue;
     padding: 0;
 }
 
@@ -130,7 +130,7 @@ p{
 }
 
 #page-name{
-    color: steelblue;
+    color: darkslategray;
     padding-top: 10px;
     padding-bottom: 20px;
     font-weight:bold;
