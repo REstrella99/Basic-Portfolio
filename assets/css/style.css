@@ -122,7 +122,7 @@ p{
 }
 
 #name{
-    background-color: #4aaaa5;
+    background-color: steelblue;
     color: #ffffff;
     float: left;
     padding: 25px;
@@ -130,7 +130,7 @@ p{
 }
 
 #page-name{
-    color: #4aaaa5;
+    color: steelblue;
     padding-top: 10px;
     padding-bottom: 20px;
     font-weight:bold;
