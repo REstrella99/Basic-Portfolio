@@ -5,7 +5,7 @@
 <head>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -13,6 +13,23 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
+    <script src="./assets/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+    <script src="jqfloat.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.choco').each(function () {
+                $(this).jqFloat({
+                    width: 0,
+                    height: 100,
+                    speed: 1000
+                });
+            });
+        });
+    </script>
+
+
 
     <Title>
         Rafael Estrella's Portfolio
@@ -32,39 +49,83 @@
 
 <body>
 
-    <section>
-        <div id="content">
-            <h1 id="page-name">About Me</h1>
+    <!-- <section>
+        <div id="content"> -->
+    <!-- <h1 id="page-name">About Me</h1>
             <hr>
-            <img id="pic" src="./Rafael.jpg"
-                alt="Rafael Estrella" width=250px>
+            <img id="pic" src="./Rafael.jpg" alt="Rafael Estrella" width=250px>
             <p>
-                Hello My name is Rafael Estrella, I am a 27 year old Queens native with a passion for food, travel and exploration.  I am a professional Full-Stack Developer & UX/UI designer with a zeal for innovation and advancing technology in the digital dimension.  Being a recent graduate of Columbia University's first-ever Full-Stack Engineering Coding Bootcamp, I will integrate my ingenuity into tech enterprises by building avant-garde applications and websites to accelerate my career.  My objective is to obtain a full/part-time secure position in an establishment where my skills & experience will be utilized with an opportunity for future advancement.
-                <div style="text-align:center;"><a href="http://github.com/restrella99/">GitHub</a> | 
-                
-                <a href="https://www.linkedin.com/in/rafael-estrella-370724100/">LinkedIn</a> |
-                
-                Email: RafaelEstrella99@gmail.com  | Phone: (347) 619-4622</div>
-            </p>
-            </p>
-        </div>
-    </section>
+                Hello My name is Rafael Estrella, I am a 27 year old Queens native with a passion for food, travel and
+                exploration. I am a professional Full-Stack Developer & UX/UI designer with a zeal for innovation and
+                advancing technology in the digital dimension. Being a recent graduate of Columbia University's
+                first-ever Full-Stack Engineering Coding Bootcamp, I will integrate my ingenuity into tech enterprises
+                by building avant-garde applications and websites to accelerate my career. My objective is to obtain a
+                full/part-time secure position in an establishment where my skills & experience will be utilized with
+                an opportunity for future advancement.
+                <div style="text-align:center;"><a href="http://github.com/restrella99/">GitHub</a> |
 
- <div style="background-image: url("./languages.jpg");" class="wrapper tabled">
-    <div class="stage" id="page1">
-      <div class="middled">
-          
-          
-        
-          
-        
-      </div>
+                    <a href="https://www.linkedin.com/in/rafael-estrella-370724100/">LinkedIn</a> |
+
+                    Email: RafaelEstrella99@gmail.com | Phone: (347) 619-4622</div>
+            </p>
+            </p> -->
+    <!-- </div>
+    </section> -->
+
+    <div class="wrapper tabled">
+        <div class="stage" id="page1">
+            <div class="middled">
+                <h1 id="page-name">About Me</h1>
+                <hr>
+                <img id="pic" src="./Rafael.jpg" alt="Rafael Estrella" width=250px>
+                <p>
+                    Hello My name is Rafael Estrella, I am a 27 year old Queens native with a passion for food,
+                    travel
+                    and
+                    exploration. I am a professional Full-Stack Developer & UX/UI designer with a zeal for
+                    innovation
+                    and
+                    advancing technology in the digital dimension. Being a recent graduate of Columbia University's
+                    first-ever Full-Stack Engineering Coding Bootcamp, I will integrate my ingenuity into tech
+                    enterprises
+                    by building avant-garde applications and websites to accelerate my career. My objective is to
+                    obtain a
+                    full/part-time secure position in an establishment where my skills & experience will be
+                    utilized
+                    with
+                    an opportunity for future advancement.
+                    <div class="links" style="text-align:center;"><a class="links" href="http://github.com/restrella99/">GitHub</a>
+                        |
+
+                        <a class="links" href="https://www.linkedin.com/in/rafael-estrella-370724100/">LinkedIn</a> |
+
+                        Email: RafaelEstrella99@gmail.com | Phone: (347) 619-4622</div>
+                </p>
+                </p>
+
+
+
+
+
+            </div>
+        </div>
     </div>
-  </div>
+
+    <div class="wrapper tabled">
+        <div class="stage" id="page2">
+            <div class="flyingLighthouse">
+                <img style="margin-left: 5%;" src="./character.png" height=450px width=450px>
+
+            </div>
+        </div>
+    </div>
+
 
 
 
 </body>
+<script src="./assets/index.js"></script>
+
 <footer>
     <p id="copyright">Copyright &copy; 2018 Rafael Estrella</p>
 </footer>
